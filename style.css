@@ -1,0 +1,20 @@
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: yellow;
+}
