@@ -5,5 +5,5 @@ Task is to build, using git, a yahoo-mail homepage.
 # Team
 * Osaro Onaiwu
 * Anita Idemudia
-* Bamidele Cole
+* Emmanuel Bamidele
 * Victoria Igbonoba
