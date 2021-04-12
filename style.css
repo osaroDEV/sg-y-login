@@ -118,4 +118,80 @@ input, .next, .create {
   float: right;
 }
 
+header {
+  background-color: white;
+  height: 10em;
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.head {
+  width: 90vw;
+  height: 7em;
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+  margin-left: 5em;
+  position: relative;
+}
+
+
+.head img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  cursor:  pointer;
+}
+
+.head a {
+  text-decoration: none;
+  color: #188fff;;
+  cursor: pointer;
+  font-family: Yahoo Sans,Helvetica Neue,Helvetica,Arial;
+  font-size: 1.7rem;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+}
+
+.head a:hover{
+  color: blue;
+}
+
+footer {
+  justify-content: center;
+  /* border: 2px solid; */
+  display: flex;
+  align-items: flex-end;
+  height: 3em;
+  padding-bottom: 1em;
+  /* position: sticky; */
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(136, 136, 136);
+  font-size: 1.2rem;
+  font-family: Yahoo Sans,Helvetica Neue,Helvetica,Arial;
+  font-stretch: narrower;
+}
+
+footer a {
+  text-decoration: none;
+  color: #188fff;
+  cursor: pointer;
+}
+
+footer a:hover{
+  color: blue;
+}
+
+
 
